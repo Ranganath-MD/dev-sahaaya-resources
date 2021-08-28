@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
 * {
@@ -8,17 +8,17 @@ export const GlobalStyles = createGlobalStyle`
   list-style: none;
  }
 body {
-  background-color: ${props => props.theme.bodyBg};
+  background-color: ${(props) => props.theme.bodyBg};
   line-height: 1.5;
   font-size: 1.1rem;
-  font-family: Merriweather, serif;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
   font-weight: 300;
-  transition: all ${props => props.theme.transitionTime};
+  transition: all ${(props) => props.theme.transitionTime};
  }
 p {
   font-size: 1.125rem;
-  color: ${props => props.theme.text};
-  transition: color ${props => props.theme.transitionTime};
+  color: ${(props) => props.theme.text};
+  transition: color ${(props) => props.theme.transitionTime};
 }
 h1 {
   font-size: calc(1.775rem + 1.5vw);
@@ -32,7 +32,7 @@ strong {
   font-weight: 800;
 }
 h1,h2,h3,h4,h5,h6 {
-  color: ${props => props.theme.headings};
-  transition: color ${props => props.theme.transitionTime};
+  color: ${(props) => props.theme.headings};
+  transition: color ${(props) => props.theme.transitionTime};
 }
 `;

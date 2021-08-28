@@ -10,7 +10,7 @@ export const lightTheme = {
   lightAccent: "rgba(218, 218, 236, 0.23)",
   underLine: "#D10068",
   links: "#212121",
-
+  primaryButtonColor: "#1a202c"
 }
 export const darkTheme = {
   bodyBg: "#121212",
@@ -24,5 +24,5 @@ export const darkTheme = {
   lightAccent: "rgba(218, 218, 236, 0.05)",
   underLine: "#D10068",
   links: "#ededed",
-
+  primaryButtonColor: "linear-gradient( to right,#753a88,#cc2b5e )"
 }

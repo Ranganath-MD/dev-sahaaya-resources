@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav } from "./styles";
+import { Nav, Logo } from "./styles";
 import { Toggler } from "./Toggler";
 import { FiSun, FiMoon } from "react-icons/fi";
 
@@ -7,10 +7,10 @@ export const Header: React.FC<{ toggleTheme: any; theme: boolean }> = ({
   toggleTheme,
   theme,
 }) => {
-  const icon = theme ? <FiMoon size={26} /> : <FiSun size={26} />;
+  const icon = theme ? <FiSun size={26} /> : <FiMoon size={26} />;
   return (
     <Nav>
-      <p>Dev Sahaaya</p>
+      <Logo>{`{ ...💻DS }`}</Logo>
       <Toggler onClick={toggleTheme}>{icon}</Toggler>
     </Nav>
   );

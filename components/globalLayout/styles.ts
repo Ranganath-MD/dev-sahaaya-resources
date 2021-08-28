@@ -9,6 +9,10 @@ export const Nav = styled.nav`
   padding: 1rem 2rem;
 `;
 
+export const Logo = styled.p`
+  font-weight: 700;
+`
+
 export const Content = styled.div`
   padding: 1rem 2rem;
 `;

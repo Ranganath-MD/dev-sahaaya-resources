@@ -15,5 +15,6 @@ declare module 'styled-components' {
     lightAccent: string;
     underLine: string;
     links: string;
+    primaryButtonColor: string;
   }
 }

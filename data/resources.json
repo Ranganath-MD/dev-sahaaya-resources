@@ -1,0 +1,57 @@
+{
+  "resources": [
+    {
+      "name": "Javascript",
+      "value": "javascript"
+    },
+    {
+      "name": "React",
+      "value": "react-js"
+    },
+    {
+      "name": "Node",
+      "value": "node-js"
+    },
+    {
+      "name": "React Native",
+      "value": "react-native"
+    },
+    {
+      "name": "GraphQL",
+      "value": "graphql",
+      "date": "sdhiuhsid"
+    },
+    {
+      "name": "Libraries",
+      "value": "libraries"
+    },
+    {
+      "name": "Javascript",
+      "value": "javascript"
+    },
+    {
+      "name": "Icons",
+      "value": "icons"
+    },
+    {
+      "name": "Database",
+      "value": "database"
+    },
+    {
+      "name": "Database",
+      "value": "database"
+    },
+    {
+      "name": "API",
+      "value": "api"
+    },
+    {
+      "name": "Design",
+      "value": "design"
+    },
+    {
+      "name": "VSCode extension",
+      "value": "vscode-extension"
+    }
+  ]
+}
