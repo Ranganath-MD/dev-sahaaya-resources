@@ -15,24 +15,29 @@ body {
   font-weight: 300;
   transition: all ${(props) => props.theme.transitionTime};
  }
+
 p {
   font-size: 1.125rem;
   color: ${(props) => props.theme.text};
   transition: color ${(props) => props.theme.transitionTime};
 }
+
 h1 {
   font-size: calc(1.775rem + 1.5vw);
   font-weight: 900;
-  font-family: Arvo;
 }
+
 h2 {
   font-size: calc(1.325rem + 0.9vw);
 }
+
 strong {
   font-weight: 800;
 }
+
 h1,h2,h3,h4,h5,h6 {
   color: ${(props) => props.theme.headings};
   transition: color ${(props) => props.theme.transitionTime};
+  font-family: Arvo;
 }
 `;

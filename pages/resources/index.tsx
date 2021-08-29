@@ -2,6 +2,8 @@ import { Layout } from "components";
 import { GetStaticProps, NextPage } from "next";
 import React from "react";
 import tags from "data/resources.json";
+import { Flex, Tag } from "styles";
+import Link from "next/link";
 
 export const getStaticProps: GetStaticProps = async () => {
   return { props: { resourcetags: tags.resources } };
@@ -10,11 +12,15 @@ export const getStaticProps: GetStaticProps = async () => {
 const ResourcesTags: NextPage<Tags> = ({ resourcetags }) => {
   return (
     <Layout>
-      <div>
+      <Flex>
         {resourcetags?.map((tag: Tag) => {
-          return <h1 key={tag.value}>{tag.name}</h1>;
+          return (
+            <Link href="/resources" key={tag.value} passHref>
+              <Tag>{tag.name}</Tag>
+            </Link>
+          );
         })}
-      </div>
+      </Flex>
     </Layout>
   );
 };

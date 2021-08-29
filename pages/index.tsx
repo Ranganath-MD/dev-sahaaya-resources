@@ -1,6 +1,7 @@
-import { Layout } from 'components'
-import type { NextPage } from 'next'
-import { Banner, PrimaryButton } from 'styles'
+import { Layout } from "components";
+import type { NextPage } from "next";
+import { Banner, PrimaryButton } from "styles";
+import Link from "next/link";
 
 const Home: NextPage = () => {
   return (
@@ -8,10 +9,12 @@ const Home: NextPage = () => {
       <Banner>
         <h1>Dev Sahaaya</h1>
         <p>Resources for Javascript Developers</p>
-        <PrimaryButton>Resources</PrimaryButton>
+        <Link href="/resources" passHref>
+          <PrimaryButton>Resources</PrimaryButton>
+        </Link>
       </Banner>
     </Layout>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

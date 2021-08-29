@@ -1,2 +1,2 @@
 export { lightTheme, darkTheme } from "./theme"
-export { GlobalStyles } from "./globalStyles"
+export { GlobalStyles } from "styles/globalStyles"

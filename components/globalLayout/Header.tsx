@@ -7,7 +7,7 @@ export const Header: React.FC<{ toggleTheme: any; theme: boolean }> = ({
   toggleTheme,
   theme,
 }) => {
-  const icon = theme ? <FiSun size={26} /> : <FiMoon size={26} />;
+  const icon = theme  ? <FiSun size={26} /> : <FiMoon size={26} />;
   return (
     <Nav>
       <Logo>{`{ ...💻DS }`}</Logo>
