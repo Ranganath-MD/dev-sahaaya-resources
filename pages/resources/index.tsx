@@ -1,8 +1,11 @@
 import { GetStaticProps, NextPage } from "next";
 import React from "react";
 import tags from "data/resources.json";
-import { Flex, Tag } from "styles";
+import { Flex } from "styles";
 import Link from "next/link";
+import dynamic from "next/dynamic";
+
+const Tag = dynamic(() => import("styles/Tags"), { ssr: false })
 
 export const getStaticProps: GetStaticProps = async () => {
   return { props: { resourcetags: tags.resources } };

@@ -16,5 +16,6 @@ declare module 'styled-components' {
     underLine: string;
     links: string;
     primaryButtonColor: string;
+    linkColor: string;
   }
 }
