@@ -2,16 +2,21 @@ import React from "react";
 import { Nav, Logo } from "./styles";
 import { Toggler } from "./Toggler";
 import { FiSun, FiMoon } from "react-icons/fi";
+import Link from "next/link";
 
-export const Header: React.FC<{ toggleTheme: any; theme: boolean }> = ({
+const Header: React.FC<{ toggleTheme: any; theme: boolean }> = ({
   toggleTheme,
   theme,
 }) => {
-  const icon = theme  ? <FiSun size={26} /> : <FiMoon size={26} />;
+  const icon = theme ? <FiSun size={26} /> : <FiMoon size={26} />;
   return (
     <Nav>
-      <Logo>{`{ ...💻DS }`}</Logo>
+      <Link href="/" passHref>
+        <Logo>{`{ ...💻DS }`}</Logo>
+      </Link>
       <Toggler onClick={toggleTheme}>{icon}</Toggler>
     </Nav>
   );
 };
+
+export default Header;
