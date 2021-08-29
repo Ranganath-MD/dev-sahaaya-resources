@@ -3,19 +3,21 @@ import React, { useCallback, useState } from "react";
 import { ThemeProvider } from "styled-components";
 import { darkTheme, lightTheme, GlobalStyles } from "../theme";
 import { Content, ColorLine } from "./styles";
+import useDarkMode from 'use-dark-mode';
+
 
 export const Layout: React.FC = ({ children }) => {
-  const [theme, setTheme] = useState(true);
+  const { value, toggle } = useDarkMode(false)
 
   const toggleTheme = useCallback(() => {
-    setTheme((prev) => !prev);
-  }, []);
+    toggle();
+  }, [toggle]);
 
   return (
-    <ThemeProvider theme={theme ? darkTheme : lightTheme }>
+    <ThemeProvider theme={value ? darkTheme : lightTheme }>
       <GlobalStyles />
       <ColorLine />
-      <Header toggleTheme={toggleTheme} theme={theme} />
+      <Header toggleTheme={toggleTheme} theme={value} />
       <Content>{children}</Content>
     </ThemeProvider>
   );
