@@ -1,0 +1,23 @@
+[
+  {
+    "section": "Javascript Learning Resources",
+    "children" : [
+      {
+        "id": "j1",
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/en-US/",
+        "image": "mdn_gydcgy.jpg",
+        "initial": "MD",
+        "description": "Resources for developers, by developers."
+      },
+      {
+        "id": "j2",
+        "title": "W3Schools",
+        "link": "https://www.w3schools.com/js/",
+        "image": "w3c_o4az2j.jpg",
+        "initial": "W3",
+        "description": "Resources for developers, by developers."
+      }
+    ]
+  }
+]
