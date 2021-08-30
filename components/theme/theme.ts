@@ -1,6 +1,6 @@
 export const lightTheme = {
   bodyBg: "#fbfbfb",
-  navBg: "rgba(218, 218, 236, 0.33)",
+  navBg: "#f8f6f6",
   headings: "#1a202c",
   text: "#2D3748",
   borderColor: "#ededed",
@@ -15,7 +15,7 @@ export const lightTheme = {
 }
 export const darkTheme = {
   bodyBg: "#121212",
-  navBg: "rgba(218, 218, 236, 0.08)",
+  navBg: "#121212",
   headings: "white",
   text: "#c1c1c1",
   borderColor: "#212121",

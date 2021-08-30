@@ -1,7 +1,7 @@
 import React, { useCallback, useState } from "react";
 import { ThemeProvider } from "styled-components";
 import { darkTheme, lightTheme, GlobalStyles } from "../theme";
-import { Content, ColorLine } from "./styles";
+import { Content, ColorLine } from "styles/layout";
 import useDarkMode from "use-dark-mode";
 import dynamic from "next/dynamic";
 

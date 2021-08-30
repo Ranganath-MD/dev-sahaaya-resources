@@ -7,7 +7,7 @@ padding: .5rem 1.5rem;
 font-family: Arvo;
 font-size: 1.5rem;
 text-decoration: none;
-color: ${props => props.theme.linkColor} !important;
+color: ${props => props.theme.linkColor};
 
 &::before {
   content: "#"
