@@ -6,16 +6,18 @@ import dynamic from "next/dynamic";
 const Card = dynamic(() => import("styles/resourceCard"), { ssr: false });
 
 export const ResourceCard: React.FC<{ data: IData }> = ({ data }) => {
-  const { title } = data;
+  const { title, link } = data;
   return (
     <Card>
       <CardLogo>
-        <Image
-          src={`${process.env.CLOUDINARY_URL}/${data.image}`}
-          alt={title}
-          width={60}
-          height={60}
-        />
+        <a href={link} target="_blank" rel="noreferrer">
+          <Image
+            src={`${process.env.CLOUDINARY_URL}/${data.image}`}
+            alt={title}
+            width={60}
+            height={60}
+          />
+        </a>
       </CardLogo>
       <CardContent>
         <p>{title}</p>
