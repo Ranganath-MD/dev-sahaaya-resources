@@ -1,9 +1,6 @@
 import React from "react";
-import { CardContent, CardLogo } from "styles/resourceCard";
+import { Card, CardContent, CardLogo } from "styles";
 import Image from "next/image";
-import dynamic from "next/dynamic";
-
-const Card = dynamic(() => import("styles/resourceCard"), { ssr: false });
 
 export const ResourceCard: React.FC<{ data: IData }> = ({ data }) => {
   const { title, link } = data;
@@ -16,6 +13,8 @@ export const ResourceCard: React.FC<{ data: IData }> = ({ data }) => {
             alt={title}
             width={60}
             height={60}
+            placeholder="blur"
+            blurDataURL={`${process.env.CLOUDINARY_URL}/${data.image}`}
           />
         </a>
       </CardLogo>

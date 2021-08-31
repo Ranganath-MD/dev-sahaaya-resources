@@ -1,6 +1,5 @@
 import React from "react";
-import { Nav, Logo } from "styles/layout";
-import { Toggler } from "./Toggler";
+import { Nav, Logo, Toggler } from "styles";
 import { FiSun, FiMoon } from "react-icons/fi";
 import Link from "next/link";
 

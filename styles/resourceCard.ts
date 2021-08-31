@@ -17,21 +17,3 @@ const Card = styled.div`
   }
 `;
 export default Card;
-
-export const CardLogo = styled.div`
-  width: 50px;
-  height: 50px;
-`;
-export const CardContent = styled.div`
-  p {
-    font-size: 1rem;
-    font-weight: 600;
-  }
-`;
-
-export const ResourceFlex = styled.div`
-  margin: 1rem 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-  grid-gap: 1.5rem;
-`

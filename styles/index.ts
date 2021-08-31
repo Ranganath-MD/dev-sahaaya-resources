@@ -1,74 +1,23 @@
-import styled from "styled-components";
+import dynamic from "next/dynamic";
 
-export const Banner = styled.div`
-  max-width: 700px;
-  margin: 20vh auto 0;
+export const Sticky = dynamic(() => import("./Sticky"), { ssr: false });
+export const A = dynamic(() => import("./A"), { ssr: false });
+export const Toggler = dynamic(() => import("./Toggler"), { ssr: false });
+export const Tag = dynamic(() => import("./Tags"), { ssr: false });
+export const PrimaryButton = dynamic(() => import("./PrimaryButton"), { ssr: false });
+export const Card = dynamic(() => import("./resourceCard"), { ssr: false });
 
-  h1 {
-    font-size: 4rem;
-  }
-
-  @media (max-width: 600px) {
-    h1 {
-      font-size: 2.5rem;
-    }
-  }
-`;
-
-export const Flex = styled.div`
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  max-width: 700px;
-  margin: 10vh auto 0;
-`;
-
-export const Container = styled.div`
-  display: flex;
-  flex-direction: row;
-  margin: 2rem auto 0;
-`;
-
-export const Relative = styled.div`
-  position: relative;
-  width: 200px;
-`;
-export const Sticky = styled.div`
-  position: sticky;
-  height: 85vh;
-  overflow: overlay;
-  top: 110px;
-
-  &::-webkit-scrollbar {
-    width: 3px;
-  }
-
-  &::-webkit-scrollbar-track {
-    background: ${props => props.theme.lightAccent};
-  }
-
-  &::-webkit-scrollbar-thumb {
-    background: ${props => props.theme.mutedText};
-  }
-`;
-export const List = styled.div`
-  padding-left: 20px;
-  width: 100%;
-`;
-export const A = styled.a`
-  display: block;
-  border: none;
-  background: transparent;
-  padding: 0.5rem 1.5rem;
-  font-size: 1rem;
-  cursor: pointer;
-  font-family: Arvo;
-  text-decoration: none;
-  color: ${(props) => props.theme.linkColor};
-
-  &::before {
-    content: "#";
-  }
-`;
-
-
+export { GlobalStyles } from "styles/globalStyles";
+export {
+  Banner,
+  ColorLine,
+  Container,
+  Flex,
+  List,
+  Logo,
+  Relative,
+  CardLogo,
+  CardContent,
+  ResourceFlex
+} from "./components";
+export { Content, Nav } from "./layout";

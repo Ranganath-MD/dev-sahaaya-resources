@@ -1,11 +1,6 @@
 import type { NextPage } from "next";
-import { Banner } from "styles";
+import { Banner, PrimaryButton } from "styles";
 import Link from "next/link";
-import dynamic from "next/dynamic";
-
-const PrimaryButton = dynamic(() => import("styles/PrimaryButton"), {
-  ssr: false,
-});
 
 const Home: NextPage = () => {
   return (
