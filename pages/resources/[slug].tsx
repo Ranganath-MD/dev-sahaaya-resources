@@ -3,9 +3,10 @@ import React from "react";
 import resourcesItems from "data/resources.json";
 import { getDataByParams } from "data/getDataByParams";
 import tags from "data/resources.json";
-import { Container, Relative, Sticky, A, List, ResourceFlex } from "styles";
+import { Container, Relative, Sticky, A, List } from "styles";
 import Link from "next/link";
 import { ResourceCard } from "components/card/ResourceCard";
+import { ResourceFlex } from "styles/resourceCard";
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const paths = resourcesItems?.resources.map((res) => ({

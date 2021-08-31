@@ -1,22 +1,142 @@
 [
   {
-    "section": "Javascript Learning Resources",
+    "section": "Frameworks & Libraries",
     "children" : [
       {
-        "id": "j1",
-        "title": "MDN Web Docs",
-        "link": "https://developer.mozilla.org/en-US/",
-        "image": "mdn_gydcgy.jpg",
-        "initial": "MD",
-        "description": "Resources for developers, by developers."
+        "id": "r1",
+        "title": "React",
+        "link": "https://reactjs.org/",
+        "image": "react.svg",
+        "initial": "R",
+        "description": "A JavaScript library for building user interfaces"
       },
       {
         "id": "j2",
-        "title": "W3Schools",
-        "link": "https://www.w3schools.com/js/",
-        "image": "w3c_o4az2j.jpg",
-        "initial": "W3",
-        "description": "Resources for developers, by developers."
+        "title": "React Native",
+        "link": "https://reactnative.dev/",
+        "image": "react.svg",
+        "initial": "RN",
+        "description": "React framework with native platform capabilities"
+      },
+      {
+        "id": "j3",
+        "title": "Node",
+        "link": "https://nodejs.dev/learn",
+        "image": "nodejs.svg",
+        "initial": "N",
+        "description": "Node.js is an open-source and cross-platform JavaScript runtime environment"
+      },
+      {
+        "id": "j4",
+        "title": "Vue",
+        "link": "https://vuejs.org/",
+        "image": "vue.svg",
+        "initial": "N",
+        "description": "The Progressive JavaScript Framework"
+      },
+      {
+        "id": "j5",
+        "title": "Angular",
+        "link": "https://angular.io/",
+        "image": "angular.svg",
+        "initial": "A",
+        "description": "The modern web developer's platform"
+      },
+      {
+        "id": "j6",
+        "title": "Swelte",
+        "link": "https://svelte.dev/",
+        "image": "svelte.svg",
+        "initial": "S",
+        "description": "Cybernetically enhanced web apps"
+      },
+      {
+        "id": "j7",
+        "title": "Ionic",
+        "link": "https://ionicframework.com/",
+        "image": "ionic.svg",
+        "initial": "I",
+        "description": "One codebase. Any platform"
+      },
+      {
+        "id": "j8",
+        "title": "Electron",
+        "link": "https://www.electronjs.org/",
+        "image": "electron.svg",
+        "initial": "E",
+        "description": "Build cross-platform desktop apps with JavaScript, HTML, and CSS"
+      },
+      {
+        "id": "j9",
+        "title": "Solid JS",
+        "link": "https://www.solidjs.com/",
+        "image": "solidjs.png",
+        "initial": "S",
+        "description": "A declarative, efficient and flexible JavaScript library for building user interfaces"
+      },
+      {
+        "id": "j10",
+        "title": "Backbone JS",
+        "link": "https://backbonejs.org/",
+        "image": "backbone.svg",
+        "initial": "BB",
+        "description": "Backbone.js is a JavaScript library with a RESTful JSON interface and is based on the MVC application design paradigm"
+      },
+      {
+        "id": "j11",
+        "title": "Meteor",
+        "link": "https://www.meteor.com/",
+        "image": "meteor.svg",
+        "initial": "M",
+        "description": "Build Full-Stack Javascript Apps with Meteor"
+      },
+      {
+        "id": "j12",
+        "title": "Preact",
+        "link": "https://preactjs.com/",
+        "image": "preact.svg",
+        "initial": "Pr",
+        "description": "Fast 3kB alternative to React with the same modern API"
+      },
+      {
+        "id": "j13",
+        "title": "jQuery",
+        "link": "https://jquery.com/",
+        "image": "jquery.svg",
+        "initial": "JQ",
+        "description": "jQuery is a fast, small, and feature-rich JavaScript library"
+      },
+      {
+        "id": "j14",
+        "title": "Aurelia",
+        "link": "http://aurelia.io/",
+        "image": "aurelia.svg",
+        "initial": "Ar",
+        "description": "Simple. Powerful. Unobtrusive"
+      },
+      {
+        "id": "j15",
+        "title": "Knockout JS",
+        "link": "https://knockoutjs.com/",
+        "image": "knockout.svg",
+        "initial": "Ko",
+        "description": "Knockout is a standalone JavaScript implementation of the Model–View–ViewModel pattern with templates"
+      },
+      {
+        "id": "j16",
+        "title": "Mithril",
+        "link": "https://mithril.js.org/",
+        "image": "mithril.svg",
+        "initial": "Ko",
+        "description": "Mithril is a modern client-side JavaScript framework for building Single Page Applications"
+      },
+      {
+        "id": "j17",
+        "title": "Lit JS",
+        "link": "https://lit.dev/",
+        "image": "lit.svg",
+        "initial": "L",
+        "description": "Simple. Fast. Web Components."
       }
     ]
   }

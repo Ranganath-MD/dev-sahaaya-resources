@@ -11,7 +11,8 @@ export const lightTheme = {
   underLine: "#D10068",
   links: "#212121",
   primaryButtonColor: "#1a202c",
-  linkColor: "#551a8b"
+  linkColor: "#551a8b",
+  boxShadow: "5px 5px 6px #eeeeee, -5px -5px 6px #ffffff"
 }
 export const darkTheme = {
   bodyBg: "#121212",
@@ -26,5 +27,6 @@ export const darkTheme = {
   underLine: "#D10068",
   links: "#ededed",
   primaryButtonColor: "linear-gradient( to right,#753a88,#cc2b5e )",
-  linkColor: "dodgerblue"
+  linkColor: "dodgerblue",
+  boxShadow: "5px 5px 10px #0d0d0d, -5px -5px 10px #171717"
 }

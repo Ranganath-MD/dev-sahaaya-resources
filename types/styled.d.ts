@@ -17,5 +17,6 @@ declare module 'styled-components' {
     links: string;
     primaryButtonColor: string;
     linkColor: string;
+    boxShadow: string;
   }
 }

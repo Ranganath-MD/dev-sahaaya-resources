@@ -36,7 +36,7 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html lang="en" translate="no">
         <Head>
           <link
             href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap"

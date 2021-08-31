@@ -4,99 +4,11 @@
     "children" : [
       {
         "id": "r1",
-        "title": "Next JS",
-        "link": "https://www.w3schools.com/js/",
+        "title": "React JS",
+        "link": "https://reactjs.org/",
         "image": "w3c_o4az2j.jpg",
-        "initial": "W3",
-        "description": "Resources for developers, by developers."
-      },
-      {
-        "id": "r2",
-        "title": "Gatsby JS",
-        "link": "https://www.w3schools.com/js/",
-        "image": "w3c_o4az2j.jpg",
-        "initial": "W3",
-        "description": "Resources for developers, by developers."
-      },
-      {
-        "id": "r1",
-        "title": "Next JS",
-        "link": "https://www.w3schools.com/js/",
-        "image": "w3c_o4az2j.jpg",
-        "initial": "W3",
-        "description": "Resources for developers, by developers."
-      },
-      {
-        "id": "r2",
-        "title": "Gatsby JS",
-        "link": "https://www.w3schools.com/js/",
-        "image": "w3c_o4az2j.jpg",
-        "initial": "W3",
-        "description": "Resources for developers, by developers."
-      },
-      {
-        "id": "r1",
-        "title": "Next JS",
-        "link": "https://www.w3schools.com/js/",
-        "image": "w3c_o4az2j.jpg",
-        "initial": "W3",
-        "description": "Resources for developers, by developers."
-      },
-      {
-        "id": "r2",
-        "title": "Gatsby JS",
-        "link": "https://www.w3schools.com/js/",
-        "image": "w3c_o4az2j.jpg",
-        "initial": "W3",
-        "description": "Resources for developers, by developers."
-      },
-      {
-        "id": "r1",
-        "title": "Next JS",
-        "link": "https://www.w3schools.com/js/",
-        "image": "w3c_o4az2j.jpg",
-        "initial": "W3",
-        "description": "Resources for developers, by developers."
-      },
-      {
-        "id": "r2",
-        "title": "Gatsby JS",
-        "link": "https://www.w3schools.com/js/",
-        "image": "w3c_o4az2j.jpg",
-        "initial": "W3",
-        "description": "Resources for developers, by developers."
-      },
-      {
-        "id": "r1",
-        "title": "Next JS",
-        "link": "https://www.w3schools.com/js/",
-        "image": "w3c_o4az2j.jpg",
-        "initial": "W3",
-        "description": "Resources for developers, by developers."
-      },
-      {
-        "id": "r2",
-        "title": "Gatsby JS",
-        "link": "https://www.w3schools.com/js/",
-        "image": "w3c_o4az2j.jpg",
-        "initial": "W3",
-        "description": "Resources for developers, by developers."
-      },
-      {
-        "id": "r1",
-        "title": "Next JS",
-        "link": "https://www.w3schools.com/js/",
-        "image": "w3c_o4az2j.jpg",
-        "initial": "W3",
-        "description": "Resources for developers, by developers."
-      },
-      {
-        "id": "r2",
-        "title": "Gatsby JS",
-        "link": "https://www.w3schools.com/js/",
-        "image": "w3c_o4az2j.jpg",
-        "initial": "W3",
-        "description": "Resources for developers, by developers."
+        "initial": "R",
+        "description": "A JavaScript library for building user interfaces"
       },
       {
         "id": "r1",

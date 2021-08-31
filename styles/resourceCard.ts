@@ -1,23 +1,37 @@
 import styled from "styled-components";
-import Image from "next/image";
 
-export const Card = styled.div`
+const Card = styled.div`
+  border-radius: 12px;
+  background: ${props => props.theme.bodyBg};
+  box-shadow: ${props => props.theme.boxShadow};
+  padding: 1rem;
   display: flex;
-  padding: 10px;
-`
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  &:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: box-shadow 0.2s ease-in, transform 0.2s ease-in;
+  }
+`;
+export default Card;
+
 export const CardLogo = styled.div`
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-`
+  width: 50px;
+  height: 50px;
+`;
 export const CardContent = styled.div`
-  margin-left: 10px;
   p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
   }
-  span {
-    font-size: 0.8rem;
-    color: ${props => props.theme.mutedText}
-  }
+`;
+
+export const ResourceFlex = styled.div`
+  margin: 1rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  grid-gap: 1.5rem;
 `
