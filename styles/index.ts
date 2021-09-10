@@ -18,6 +18,8 @@ export {
   Relative,
   CardLogo,
   CardContent,
-  ResourceFlex
+  ResourceFlex,
+  H2,
+  Section
 } from "./components";
 export { Content, Nav } from "./layout";

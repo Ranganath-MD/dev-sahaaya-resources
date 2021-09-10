@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const Logo = styled.p`
   font-weight: 700;
   cursor: pointer;
@@ -22,12 +21,11 @@ export const Container = styled.div`
 
 export const Relative = styled.div`
   position: relative;
-  width: 200px;
 `;
 
 export const List = styled.div`
-padding-left: 20px;
-width: 100%;
+  padding-left: 20px;
+  width: 100%;
 `;
 
 export const Banner = styled.div`
@@ -57,8 +55,8 @@ export const ColorLine = styled.div`
 `;
 
 export const CardLogo = styled.div`
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   img {
     pointer-events: none;
   }
@@ -66,7 +64,7 @@ export const CardLogo = styled.div`
 
 export const CardContent = styled.div`
   p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 600;
   }
 `;
@@ -76,4 +74,11 @@ export const ResourceFlex = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
   grid-gap: 1.5rem;
-`
+`;
+
+export const H2 = styled.h2`
+  margin-bottom: 10px;
+`;
+export const Section = styled.div`
+  margin-bottom: 3rem;
+`;

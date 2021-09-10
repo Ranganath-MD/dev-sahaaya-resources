@@ -15,8 +15,8 @@ export const lightTheme = {
   boxShadow: "5px 5px 6px #eeeeee, -5px -5px 6px #ffffff"
 }
 export const darkTheme = {
-  bodyBg: "#121212",
-  navBg: "#121212",
+  bodyBg: "#00091f",
+  navBg: "#00091f",
   headings: "white",
   text: "#c1c1c1",
   borderColor: "#212121",
@@ -28,5 +28,5 @@ export const darkTheme = {
   links: "#ededed",
   primaryButtonColor: "linear-gradient( to right,#753a88,#cc2b5e )",
   linkColor: "dodgerblue",
-  boxShadow: "5px 5px 10px #0d0d0d, -5px -5px 10px #171717"
+  boxShadow: "20px 20px 60px #00081a, -20px -20px 60px #000a24;"
 }

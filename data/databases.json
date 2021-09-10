@@ -1,0 +1,279 @@
+[
+  {
+    "section": "Databases & services",
+    "children": [
+      {
+        "id": "d0",
+        "title": "Mongo DB",
+        "link": "https://www.mongodb.com/",
+        "image": "mongodb.svg",
+        "initial": "M",
+        "description": "MongoDB: The application data platform"
+      },
+      {
+        "id": "d1",
+        "title": "Mongoose",
+        "link": "https://mongoosejs.com/",
+        "image": "mongoose.png",
+        "initial": "M",
+        "description": "elegant mongodb object modeling for node.js"
+      },
+      {
+        "id": "d2",
+        "title": "Couch DB",
+        "link": "http://couchdb.apache.org/",
+        "image": "couchdb.svg",
+        "initial": "C",
+        "description": "Seamless multi-master sync, that scales from Big Data to Mobile"
+      },
+      {
+        "id": "d3",
+        "title": "AWS Dynamo DB",
+        "link": "https://aws.amazon.com/dynamodb/",
+        "image": "aws-dynamodb.svg",
+        "initial": "D",
+        "description": "Fast and flexible NoSQL database service for any scale"
+      },
+      {
+        "id": "d4",
+        "title": "Redis",
+        "link": "https://redis.io/",
+        "image": "redis.svg",
+        "initial": "R",
+        "description": "Redis is an open source in-memory data structure server and NoSQL database."
+      },
+      {
+        "id": "d5",
+        "title": "Raven DB",
+        "link": "https://ravendb.net/",
+        "image": "raven.svg",
+        "initial": "R",
+        "description": "Easy, Fast, Reliable with Multi-Document ACID Transactions"
+      },
+      {
+        "id": "d6",
+        "title": "Memcached",
+        "link": "https://memcached.org/",
+        "image": "memcached.svg",
+        "initial": "M",
+        "description": "Free & open source, high-performance, distributed memory object caching system"
+      },
+      {
+        "id": "d7",
+        "title": "Fauna DB",
+        "link": "https://fauna.com/",
+        "image": "fauna.svg",
+        "initial": "F",
+        "description": "The data API for modern applications"
+      },
+      {
+        "id": "d8",
+        "title": "HBASE",
+        "link": "http://hbase.apache.org/",
+        "image": "hbase.svg",
+        "initial": "H",
+        "description": "The data API for modern applications"
+      },
+      {
+        "id": "d9",
+        "title": "Airtable",
+        "link": "https://www.airtable.com/",
+        "image": "airtable.svg",
+        "initial": "A",
+        "description": "The data API for modern applications"
+      },
+      {
+        "id": "d10",
+        "title": "My Sql",
+        "link": "https://github.com/mysqljs/mysql",
+        "image": "mysql.svg",
+        "initial": "M",
+        "description": "Sql Database"
+      },
+      {
+        "id": "d11",
+        "title": "PostgreSQL",
+        "link": "https://www.postgresql.org/",
+        "image": "postgresql.svg",
+        "initial": "P",
+        "description": "The World's Most Advanced Open Source Relational Database"
+      },
+      {
+        "id": "d12",
+        "title": "MariaDB",
+        "link": "https://www.postgresql.org/",
+        "image": "mariadb.svg",
+        "initial": "M",
+        "description": "MariaDB Server: The open source relational database"
+      },
+      {
+        "id": "d13",
+        "title": "Rocks DB",
+        "link": "http://rocksdb.org/",
+        "image": "rocksdb.svg",
+        "initial": "R",
+        "description": "The RocksDB library provides a persistent key value store. "
+      },
+      {
+        "id": "d14",
+        "title": "Pouch DB",
+        "link": "https://pouchdb.com/",
+        "image": "pouchdb.svg",
+        "initial": "P",
+        "description": "The Database that Syncs!"
+      },
+      {
+        "id": "d15",
+        "title": "Rethink DB",
+        "link": "https://rethinkdb.com/",
+        "image": "rethinkdb.svg",
+        "initial": "R",
+        "description": "The open-source database for the realtime web"
+      },
+      {
+        "id": "d16",
+        "title": "Cassandra",
+        "link": "https://cassandra.apache.org/_/index.html",
+        "image": "cassandra.svg",
+        "initial": "C",
+        "description": "Open Source NoSQL Database"
+      },
+      {
+        "id": "d17",
+        "title": "AWS RDS",
+        "link": "https://aws.amazon.com/rds/",
+        "image": "aws-rds.svg",
+        "initial": "A",
+        "description": "Amazon Relational Database Service (RDS)"
+      },
+      {
+        "id": "d18",
+        "title": "Couchbase",
+        "link": "https://www.couchbase.com/",
+        "image": "couchbase.svg",
+        "initial": "C",
+        "description": "The Modern Database for Enterprise Applications"
+      },
+      {
+        "id": "d19",
+        "title": "Singlestore",
+        "link": "https://www.singlestore.com/",
+        "image": "singlestore.svg",
+        "initial": "S",
+        "description": "The Single Database for All Data-Intensive Applications"
+      },
+      {
+        "id": "d20",
+        "title": "Prisma",
+        "link": "https://www.prisma.io/",
+        "image": "prisma.svg",
+        "initial": "P",
+        "description": "Next-generation Node.js and TypeScript ORM"
+      },
+      {
+        "id": "d21",
+        "title": "Realm",
+        "link": "https://realm.io/",
+        "image": "realm.svg",
+        "initial": "R",
+        "description": "Realm’s mobile database is an open source, developer-friendly alternative to CoreData and SQLite"
+      },
+      {
+        "id": "d22",
+        "title": "Firebase",
+        "link": "https://firebase.google.com/",
+        "image": "firebase.svg",
+        "initial": "F",
+        "description": "Firebase helps you build and run successful apps"
+      },
+      {
+        "id": "d23",
+        "title": "Sequelize",
+        "link": "https://sequelize.org/",
+        "image": "sequelize.svg",
+        "initial": "S",
+        "description": "Sequelize is a promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server"
+      },
+      {
+        "id": "d24",
+        "title": "Oracle DB",
+        "link": "https://www.oracle.com/database/",
+        "image": "oracledb.svg",
+        "initial": "S",
+        "description": "Oracle database products offer customers cost-optimized and high-performance versions of Oracle Database, the world's leading converged, multi-model database management system, as well as in-memory, NoSQL and MySQL databases"
+      },
+      {
+        "id": "d25",
+        "title": "Elastic Search",
+        "link": "https://www.elastic.co/elasticsearch/",
+        "image": "elasticsearch.svg",
+        "initial": "E",
+        "description": "The heart of the free and open Elastic Stack"
+      },
+      {
+        "id": "d26",
+        "title": "Neo4j",
+        "link": "https://neo4j.com/",
+        "image": "neo4j.svg",
+        "initial": "N",
+        "description": "Neo4j gives developers and data scientists the most trusted and advanced tools to quickly build today’s intelligent applications and machine learning workflows"
+      },
+      {
+        "id": "d27",
+        "title": "SQLite",
+        "link": "https://www.sqlite.org/index.html",
+        "image": "sqlite.svg",
+        "initial": "S",
+        "description": "SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine"
+      },
+      {
+        "id": "d28",
+        "title": "Type ORM",
+        "link": "https://typeorm.io/#/",
+        "image": "typeorm.png",
+        "initial": "T",
+        "description": "TypeORM is an ORM that can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms and can be used with TypeScript and JavaScript (ES5, ES6, ES7, ES8)"
+      },
+      {
+        "id": "d29",
+        "title": "Bookself JS",
+        "link": "https://bookshelfjs.org/",
+        "image": "bookshelfjs.svg",
+        "initial": "B",
+        "description": "Bookshelf is a JavaScript ORM for Node.js, built on the Knex SQL query builder"
+      },
+      {
+        "id": "d30",
+        "title": "Waterline JS",
+        "link": "https://waterlinejs.org/",
+        "image": "waterline.png",
+        "initial": "W",
+        "description": "waterline an adapter-based ORM for node.js"
+      },
+      {
+        "id": "d31",
+        "title": "Objection JS",
+        "link": "https://vincit.github.io/objection.js/",
+        "image": "",
+        "initial": "O",
+        "description": "Objection.js is an ORM for Node.js"
+      },
+      {
+        "id": "d32",
+        "title": "Typegoose",
+        "link": "https://typegoose.github.io/typegoose/",
+        "image": "",
+        "initial": "T",
+        "description": "Define Mongoose models using TypeScript classes"
+      },
+      {
+        "id": "d33",
+        "title": "MicrORM",
+        "link": "https://mikro-orm.io/",
+        "image": "microorm.svg",
+        "initial": "M",
+        "description": "TypeScript ORM for Node.js based on Data Mapper, Unit of Work and Identity Map patterns"
+      }
+    ]
+  }
+]

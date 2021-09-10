@@ -3,7 +3,7 @@
     "section": "Frameworks & Libraries",
     "children" : [
       {
-        "id": "r1",
+        "id": "j1",
         "title": "React",
         "link": "https://reactjs.org/",
         "image": "react.svg",
@@ -145,6 +145,200 @@
         "image": "lit.svg",
         "initial": "L",
         "description": "Simple. Fast. Web Components."
+      }
+    ]
+  },
+  {
+    "section": "Build Tools",
+    "children": [
+      {
+        "id": "bt1",
+        "title": "Webpack",
+        "link": "https://webpack.js.org/",
+        "image": "webpack.svg",
+        "initial": "WP",
+        "description": "Popular Javascript Bundler"
+      },
+      {
+        "id": "bt2",
+        "title": "Rollup",
+        "link": "https://rollupjs.org/guide/en/",
+        "image": "rollupjs.svg",
+        "initial": "RU",
+        "description": "Rollup is a module bundler for JavaScript"
+      },
+      {
+        "id": "bt3",
+        "title": "Parcel",
+        "link": "https://parceljs.org/",
+        "image": "parcel.svg",
+        "initial": "P",
+        "description": "Blazing fast, zero configuration web application bundler"
+      },
+      {
+        "id": "bt4",
+        "title": "esbuild",
+        "link": "https://esbuild.github.io/",
+        "image": "esbuild.svg",
+        "initial": "EB",
+        "description": "An extremely fast JavaScript bundler"
+      },
+      {
+        "id": "bt5",
+        "title": "Snowpack",
+        "link": "https://www.snowpack.dev/",
+        "image": "snowpack.svg",
+        "initial": "SP",
+        "description": "The faster frontend build tool."
+      },
+      {
+        "id": "bt6",
+        "title": "Vite",
+        "link": "https://vitejs.dev/",
+        "image": "vitejs.svg",
+        "initial": "V",
+        "description": "Vite is a build tool that aims to provide a faster and leaner development experience for modern web projects"
+      },
+      {
+        "id": "bt7",
+        "title": "SWC",
+        "link": "https://swc.rs/",
+        "image": "swc.svg",
+        "initial": "SWC",
+        "description": "Super fast javascript / typescript compiler"
+      },
+      {
+        "id": "bt8",
+        "title": "Rome",
+        "link": "https://rome.tools/",
+        "image": "rome.svg",
+        "initial": "R",
+        "description": "Rome is a linter, compiler, bundler, and more for JavaScript, TypeScript, JSON, HTML, Markdown, and CSS"
+      },
+      {
+        "id": "bt9",
+        "title": "Brunch",
+        "link": "https://brunch.io/",
+        "image": "brunch.svg",
+        "initial": "B",
+        "description": "Brunch - ultra-fast HTML5 build tool"
+      },
+      {
+        "id": "bt10",
+        "title": "Microbundle",
+        "link": "https://github.com/developit/microbundle",
+        "image": "",
+        "initial": "M",
+        "description": "📦 Zero-configuration bundler for tiny modules"
+      },
+      {
+        "id": "bt11",
+        "title": "Packem",
+        "link": "https://packem.github.io/",
+        "image": "packem.png",
+        "initial": "P",
+        "description": "A precompiled JavaScript module bundler"
+      },
+      {
+        "id": "bt12",
+        "title": "Browserify",
+        "link": "https://browserify.org/",
+        "image": "browserify.svg",
+        "initial": "B",
+        "description": "Browserify lets you require('modules') in the browser by bundling up all of your dependencies"
+      },
+      {
+        "id": "bt13",
+        "title": "Grunt",
+        "link": "https://gruntjs.com/",
+        "image": "grunt.svg",
+        "initial": "G",
+        "description": "The Javascript task runner"
+      },
+      {
+        "id": "bt14",
+        "title": "FuseBox",
+        "link": "https://fuse-box.org/",
+        "image": "fusebox.svg",
+        "initial": "FB",
+        "description": "A bundler that does it right"
+      },
+      {
+        "id": "bt15",
+        "title": "Metro",
+        "link": "https://facebook.github.io/metro/",
+        "image": "metro.svg",
+        "initial": "M",
+        "description": "The JavaScript bundler for React Native"
+      },
+      {
+        "id": "bt16",
+        "title": "Gulp",
+        "link": "https://gulpjs.com/",
+        "image": "gulp.svg",
+        "initial": "G",
+        "description": "A toolkit to automate & enhance your workflow"
+      },
+      {
+        "id": "bt17",
+        "title": "Bundl",
+        "link": "https://bundljs.org/",
+        "image": "bundl.png",
+        "initial": "B",
+        "description": "Build & pack anything your way!"
+      },
+      {
+        "id": "bt18",
+        "title": "Steal",
+        "link": "https://stealjs.com/",
+        "image": "stealjs.svg",
+        "initial": "S",
+        "description": "Futuristic JavaScript dependency loader and builder"
+      }
+    ]
+  },
+  {
+    "section": "Package Manager",
+    "children": [
+      {
+        "id": "pm1",
+        "title": "NPM",
+        "link": "https://www.npmjs.com/",
+        "image": "npm.svg",
+        "initial": "N",
+        "description": "Build amazing things"
+      },
+      {
+        "id": "pm2",
+        "title": "Yarn",
+        "link": "https://yarnpkg.com/",
+        "image": "yarn.svg",
+        "initial": "Y",
+        "description": "Yarn is a package manager that doubles down as project manager"
+      },
+      {
+        "id": "pm3",
+        "title": "pnpm",
+        "link": "https://pnpm.io/",
+        "image": "pnpm.svg",
+        "initial": "P",
+        "description": "Fast, disk space efficient package manager"
+      },
+      {
+        "id": "pm4",
+        "title": "Bower",
+        "link": "https://bower.io/",
+        "image": "bower.svg",
+        "initial": "B",
+        "description": "A package manager for the web"
+      },
+      {
+        "id": "pm5",
+        "title": "Turbo",
+        "link": "https://developer.stackblitz.com/docs/platform/turbo",
+        "image": "turbo.png",
+        "initial": "T",
+        "description": "Turbo is a new JavaScript package manager originally built for StackBlitz"
       }
     ]
   }

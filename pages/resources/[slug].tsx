@@ -3,7 +3,15 @@ import React from "react";
 import resourcesItems from "data/resources.json";
 import { getDataByParams } from "data/getDataByParams";
 import tags from "data/resources.json";
-import { Container, Relative, Sticky, List, A, ResourceFlex } from "styles";
+import {
+  Container,
+  Relative,
+  Sticky,
+  List,
+  A,
+  ResourceFlex,
+  Section,
+} from "styles";
 import Link from "next/link";
 import { ResourceCard } from "components";
 
@@ -44,19 +52,16 @@ const ResourceItems: React.FC<{ data: IResourceData[]; resourcetags: Tag[] }> =
         <List>
           {data?.map((res) => {
             return (
-              <div key={res.section}>
+              <Section key={res.section}>
                 <h3>{res.section}</h3>
                 <ResourceFlex>
                   {res?.children.map((child) => {
                     return (
-                      <ResourceCard
-                        key={child.id}
-                        data={child}
-                      />
+                      <ResourceCard  data={child} key={child.id}/>
                     );
                   })}
                 </ResourceFlex>
-              </div>
+              </Section>
             );
           })}
         </List>

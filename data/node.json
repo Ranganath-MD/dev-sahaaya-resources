@@ -1,0 +1,164 @@
+[
+  {
+    "section": "Frameworks",
+    "children" : [
+      {
+        "id": "n1",
+        "title": "Adonis JS",
+        "link": "https://adonisjs.com/",
+        "image": "adonisjs.svg",
+        "initial": "A",
+        "description": "A fully featured web framework for Node.js"
+      },
+      {
+        "id": "n2",
+        "title": "Express JS",
+        "link": "https://expressjs.com/",
+        "image": "express.svg",
+        "initial": "W3",
+        "description": "Resources for developers, by developers."
+      },
+      {
+        "id": "n3",
+        "title": "Fastify JS",
+        "link": "https://www.fastify.io/",
+        "image": "fastify.svg",
+        "initial": "W3",
+        "description": "Resources for developers, by developers."
+      },
+      {
+        "id": "n4",
+        "title": "Meteor",
+        "link": "https://www.meteor.com/",
+        "image": "meteor.svg",
+        "initial": "M",
+        "description": "Build Full-Stack Javascript Apps with Meteor"
+      },
+      {
+        "id": "n5",
+        "title": "Nest Js",
+        "link": "https://nestjs.com/",
+        "image": "nestjs.svg",
+        "initial": "N",
+        "description": "A progressive Node.js framework for building efficient, reliable and scalable server-side applications"
+      },
+      {
+        "id": "n6",
+        "title": "Sails Js",
+        "link": "https://sailsjs.com/",
+        "image": "sails.svg",
+        "initial": "S",
+        "description": "The MVC framework for Node.js"
+      },
+      {
+        "id": "n7",
+        "title": "Koa Js",
+        "link": "https://koajs.com/",
+        "image": "koa.svg",
+        "initial": "K",
+        "description": "Next generation web framework for node.js"
+      },
+      {
+        "id": "n8",
+        "title": "Loopback Js",
+        "link": "https://loopback.io/",
+        "image": "loopback.svg",
+        "initial": "L",
+        "description": "A highly extensible Node.js and TypeScript framework for building APIs and microservices."
+      },
+      {
+        "id": "n9",
+        "title": "Hapi Js",
+        "link": "https://hapi.dev/",
+        "image": "hapi.svg",
+        "initial": "H",
+        "description": "The Simple, Secure Framework Developers Trust"
+      },
+      {
+        "id": "n10",
+        "title": "Derby Js",
+        "link": "https://derbyjs.com/",
+        "image": "derby.svg",
+        "initial": "D",
+        "description": "DerbyJS is a full-stack framework for writing modern web applications."
+      },
+      {
+        "id": "n11",
+        "title": "Socket.io",
+        "link": "https://socket.io/",
+        "image": "socketio.svg",
+        "initial": "S",
+        "description": "Socket.IO enables real-time, bidirectional and event-based communication"
+      },
+      {
+        "id": "n12",
+        "title": "Keystone JS",
+        "link": "https://keystonejs.com/",
+        "image": "keystonejs.svg",
+        "initial": "M",
+        "description": "The superpowered CMS for developers"
+      },
+      {
+        "id": "n13",
+        "title": "Feathers JS",
+        "link": "https://feathersjs.com/",
+        "image": "feathersjs.svg",
+        "initial": "M",
+        "description": "A framework for real-time applications and REST APIs"
+      },
+      {
+        "id": "n14",
+        "title": "Mocha",
+        "link": "https://mochajs.org/",
+        "image": "mocha.svg",
+        "initial": "M",
+        "description": "Mocha is a feature-rich JavaScript test framework"
+      }
+    ]
+  },
+  {
+    "section": "Process Manager",
+    "children" : [
+      {
+        "id": "n15",
+        "title": "Nodemon",
+        "link": "https://nodemon.io/",
+        "image": "nodemon",
+        "initial": "N",
+        "description": "nodemon reload, automatically"
+      },
+      {
+        "id": "n16",
+        "title": "PM2",
+        "link": "https://pm2.keymetrics.io/",
+        "image": "pm2.png",
+        "initial": "P",
+        "description": "ADVANCED, PRODUCTION PROCESS MANAGER FOR NODE.JS"
+      },
+      {
+        "id": "n17",
+        "title": "StrongLoop PM",
+        "link": "https://strong-pm.io/",
+        "image": "slpm.png",
+        "initial": "S",
+        "description": "The best process management solution for Node"
+      },
+      {
+        "id": "n18",
+        "title": "Forever",
+        "link": "https://github.com/foreversd/forever",
+        "image": "",
+        "initial": "F",
+        "description": "A simple CLI tool for ensuring that a given script runs continuously (i.e. forever)"
+      },
+      {
+        "id": "n18",
+        "title": "Supervizer",
+        "link": "https://github.com/oOthkOo/supervizer",
+        "image": "",
+        "initial": "S",
+        "description": "A NodeJS manager to spawn/stop/manage node application"
+      }
+    ]
+  }
+]
