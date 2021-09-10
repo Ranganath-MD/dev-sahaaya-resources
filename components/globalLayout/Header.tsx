@@ -13,7 +13,7 @@ const Header: React.FC<{ toggleTheme: any; theme: boolean }> = ({
       <Link href="/" passHref>
         <Logo>{`{ ...💻DS }`}</Logo>
       </Link>
-      <Toggler onClick={toggleTheme}>{icon}</Toggler>
+      <Toggler onClick={toggleTheme} aria-label="theme-icon">{icon}</Toggler>
     </Nav>
   );
 };
