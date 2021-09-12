@@ -1,20 +1,13 @@
 import type { NextPage } from "next";
-import { Banner, Heading, PrimaryButton, SubHeading } from "styles";
-import Link from "next/link";
-import { Seo } from "components";
+import dynamic from "next/dynamic";
+import { Banner } from "styles";
+
+export const Main = dynamic(() => import("../components/globalLayout/Main"), { ssr: false });
 
 const Home: NextPage = () => {
   return (
     <Banner>
-      <Seo
-        title={"Dev Sahaaya"}
-        description={"Resources for Javascript Developers"}
-      />
-      <Heading>Dev Sahaaya</Heading>
-      <SubHeading>Resources for Javascript Developers</SubHeading>
-      <Link href="/resources" passHref>
-        <PrimaryButton>Resources</PrimaryButton>
-      </Link>
+      <Main />
     </Banner>
   );
 };
