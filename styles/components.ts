@@ -5,6 +5,13 @@ export const Logo = styled.p`
   cursor: pointer;
 `;
 
+export const Heading = styled.h1`
+  margin-bottom: 10px;
+`;
+export const SubHeading = styled.p`
+  margin-bottom: 10px;
+`;
+
 export const Flex = styled.div`
   display: flex;
   flex-direction: row;

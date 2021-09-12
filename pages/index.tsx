@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { Banner, PrimaryButton } from "styles";
+import { Banner, Heading, PrimaryButton, SubHeading } from "styles";
 import Link from "next/link";
 import { Seo } from "components";
 
@@ -10,8 +10,8 @@ const Home: NextPage = () => {
         title={"Dev Sahaaya"}
         description={"Resources for Javascript Developers"}
       />
-      <h1>Dev Sahaaya</h1>
-      <p>Resources for Javascript Developers</p>
+      <Heading>Dev Sahaaya</Heading>
+      <SubHeading>Resources for Javascript Developers</SubHeading>
       <Link href="/resources" passHref>
         <PrimaryButton>Resources</PrimaryButton>
       </Link>

@@ -20,6 +20,8 @@ export {
   CardContent,
   ResourceFlex,
   H2,
-  Section
+  Section,
+  Heading,
+  SubHeading
 } from "./components";
 export { Content, Nav } from "./layout";
