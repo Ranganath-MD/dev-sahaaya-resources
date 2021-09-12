@@ -1,15 +1,15 @@
 import type { AppProps } from "next/app";
 import { Layout } from "components";
-import Head from "next/head";
+import { DefaultSeo } from "next-seo";
+import { seoConfig } from "components/Seo/seo.config"
+import { Seo } from "components/Seo/Seo";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Layout>
-      <Head>
-        <title>
-          Dev Sahaaya
-        </title>
-      </Head>
+      <DefaultSeo
+        {...seoConfig}
+      />
       <Component {...pageProps} />
     </Layout>
   );

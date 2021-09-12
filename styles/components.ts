@@ -11,6 +11,12 @@ export const Flex = styled.div`
   flex-wrap: wrap;
   max-width: 700px;
   margin: 10vh auto 0;
+
+  a {
+    font-weight: 600;
+    margin: 5px 10px;
+    font-size: 1.25rem;
+  }
 `;
 
 export const Container = styled.div`
@@ -21,6 +27,7 @@ export const Container = styled.div`
 
 export const Relative = styled.div`
   position: relative;
+  min-width: 10rem;
 `;
 
 export const List = styled.div`

@@ -13,7 +13,7 @@ import {
   Section,
 } from "styles";
 import Link from "next/link";
-import { ResourceCard } from "components";
+import { ResourceCard, Seo } from "components";
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const paths = resourcesItems?.resources.map((res) => ({
@@ -28,16 +28,26 @@ export const getStaticProps: GetStaticProps = async ({
   const data: IResourceData[] = getDataByParams(params?.slug as string);
   return {
     props: {
+      slug: params?.slug,
       data,
       resourcetags: tags.resources,
     },
   };
 };
 
-const ResourceItems: React.FC<{ data: IResourceData[]; resourcetags: Tag[] }> =
-  ({ data, resourcetags }) => {
+const getDescription = (slug: string, data: IResourceData[]): string => {
+  const sections = data?.map(d => d.section)
+  return `${slug}: ${sections}`
+}
+
+const ResourceItems: React.FC<{ slug: string; data: IResourceData[]; resourcetags: Tag[] }> =
+  ({ slug, data, resourcetags }) => {
     return (
       <Container>
+        <Seo
+          title={`${slug} Resources`}
+          description={getDescription(slug, data)}
+        />
         <Relative>
           <Sticky>
             {resourcetags.map((res) => {
@@ -56,9 +66,7 @@ const ResourceItems: React.FC<{ data: IResourceData[]; resourcetags: Tag[] }> =
                 <h3>{res.section}</h3>
                 <ResourceFlex>
                   {res?.children.map((child) => {
-                    return (
-                      <ResourceCard  data={child} key={child.id}/>
-                    );
+                    return <ResourceCard data={child} key={child.id} />;
                   })}
                 </ResourceFlex>
               </Section>
